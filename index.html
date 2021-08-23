@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive food website design tutorial </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../hackaton - Copy (2)/css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>The Food App</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#speciality">speciality</a>
+        <a href="#popular">popular</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+        <a href="Register.html">Register</a>
+        <a href="login2.html">Log In</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>food made with love</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem amet laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt rem quisquam eos!</p>
+        <a href="Customer.html" class="btn">order now</a>
+    </div>
+
+    <div class="image">
+        <img src="https://media.istockphoto.com/photos/top-view-table-full-of-food-picture-id1220017909?b=1&k=6&m=1220017909&s=170667a&w=0&h=yqVHUpGRq-vldcbdMjSbaDV9j52Vq8AaGUNpYBGklXs=" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- speciality section starts  -->
+
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> our <span>speciality</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="https://www.crushpixel.com/big-static11/preview4/fresh-tasty-burger-694357.jpg" alt="">
+            <div class="content">
+                <img src="images/s-1.png" alt="">
+                <h3>tasty burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900" alt="">
+            <div class="content">
+                <img src="" alt="">
+                <h3>tasty pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/1200px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg" alt="">
+            <div class="content">
+                <img src="images/s-3.png" alt="">
+                <h3>cold ice-cream</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="https://mcdonalds.com.pk/wp-content/uploads/cold-drinks-.png" alt="">
+            <div class="content">
+                <img src="images/s-4.png" alt="">
+                <h3>cold drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="data:image/jpeg;base64,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" alt="">
+            <div class="content">
+                <img src="images/s-5.png" alt="">
+                <h3>tasty sweets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="https://cdn.loveandlemons.com/wp-content/uploads/2019/01/overnight-oats-recipe.jpg" alt="">
+            <div class="content">
+                <img src="images/s-6.png" alt="">
+                <h3>healty breakfast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- speciality section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <h1 class="heading"> most <span>popular</span> foods </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="https://www.crushpixel.com/big-static11/preview4/fresh-tasty-burger-694357.jpg" alt="">
+            <h3>tasty burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="https://5.imimg.com/data5/NI/IH/QU/ANDROID-90366522/img-20190619-153251-jpg-500x500.jpg" alt="">
+            <h3>tasty cakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="https://hamariweb.com/recipes/images/recipeimages/11522.jpg" alt="">
+            <h3>tasty sweets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/09/Chocolate-Cupcakes-WS2.jpg" alt="">
+            <h3>tasty cupcakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="https://mcdonalds.com.pk/wp-content/uploads/cold-drinks-.png" alt="">
+            <h3>cold drinks</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/1200px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg" alt="">
+            <h3>cold ice-cream</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- steps section starts  -->
+
+<div class="step-container">
+
+    <h1 class="heading">how it <span>works</span></h1>
+
+    <section class="steps">
+
+        <div class="box">
+            <img src="https://thefinancialexpress.com.bd/public/uploads/1569501399.jpg" alt="">
+            <h3>choose your favorite food</h3>
+        </div>
+        <div class="box">
+            <img src="https://thumbs.dreamstime.com/z/fast-delivery-illustration-typographic-inscription-fast-free-delivery-isometric-red-van-eps-70916876.jpg" alt="">
+            <h3>free and fast delivery</h3>
+        </div>
+        <div class="box">
+            <img src="https://image.shutterstock.com/image-vector/online-card-payment-concept-easy-260nw-1306465405.jpg" alt="">
+            <h3>easy payments methods</h3>
+        </div>
+        <div class="box">
+            <img src="https://s3.envato.com/files/329308589/DSC06010.jpg" alt="">
+            <h3>and finally, enjoy your food</h3>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- steps section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> our food <span> gallery </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://cdn-food.tribune.com.pk/gallery/ZMt4WPmYn0FlQEIIjRsBi51ZQbtnq5aa7bS7mXO4.jpeg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/1200px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://www.masala.tv/wp-content/uploads/2017/05/1-13.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://image.shutterstock.com/image-photo/barbecuebarbqbarbeque-grill-street-food-thailandmarket-260nw-585595169.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://5.imimg.com/data5/NI/IH/QU/ANDROID-90366522/img-20190619-153251-jpg-500x500.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.shortpixel.ai/client/q_lqip,ret_wait,w_600,h_400/https://peekaboo.guru/blog/wp-content/uploads/2021/04/chips-and-dips-pizza-fries-600x400.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/09/Chocolate-Cupcakes-WS2.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://media.istockphoto.com/photos/selection-of-american-food-picture-id931308812?k=6&m=931308812&s=612x612&w=0&h=bIbWqdW3LEc9Q5_WnqYG0blqrKp9zW7Qc36Gq35FTaE=" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> our customers <span>reviews</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1568493021943-4077b55c95a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwaW4lMjBzdWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+            <h3>AHMED</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1585846416120-3a7354ed7d39?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbiUyMGluJTIwc3VpdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+            <h3>SAAD</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1611485988300-b7530defb8e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="">
+            <h3>SAMI</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h1 class="heading"> <span>order</span> now </h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="https://image.shutterstock.com/image-vector/banner-order-now-260nw-737082937.jpg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="food name">
+            </div>
+
+            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+    </div>
+
+    <h1 class="credit"> created by <span> Muhammad Sami </span> | all rights reserved! </h1>
+
+</section>
+
+<!-- scroll top button  -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../hackaton - Copy (2)/js/Home.js"></script>
+
+
+</body>
+</html>
